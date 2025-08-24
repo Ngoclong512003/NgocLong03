@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonime</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #1b1f2a;
+            color: #fff;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            background: #10141e;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .search input {
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: none;
+            background: #2a2f3d;
+            color: #fff;
+        }
+
+        /* Explore */
+        .section {
+            padding: 30px 40px;
+        }
+
+        .section h2 {
+            margin-bottom: 10px;
+        }
+
+        .banner {
+            position: relative;
+            margin-top: 20px;
+        }
+
+        .banner img {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .banner-text {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+
+        .banner-text h3 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .banner-text p {
+            margin: 5px 0 0;
+            max-width: 400px;
+            font-size: 14px;
+            color: #ddd;
+        }
+
+        /* New Release */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #2a2f3d;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+        }
+
+        .episode {
+            background: #10141e;
+            padding: 5px;
+            font-size: 12px;
+        }
+
+        .title {
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">Anonime</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">List anime</a>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Search anime or movie">
+        </div>
+    </header>
+    <section class="section">
+        <h2>Explore</h2>
+        <p>What are you gonna watch today ?</p>
+        <div class="banner">
+            <img src="a15988d83feb9d7a97a93cac67eb291272ab227e.jpg" alt="Banner">
+            <div class="banner-text">
+                <h3>Weather With You</h3>
+                <p>
+                    Corrupt politicians, frenzied nationalists, and other warmongering forces constantly jeopardize the
+                    thin veneer of peace between neighboring countries Ostania and Westalis.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>New Release</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="6ea28ccf1ea53edb90b65e5d33d48205a91a17a0.jpg" alt="">
+                <div class="episode">Episode 1018</div>
+                <div class="title">One Piece</div>
+            </div>
+            <div class="card">
+                <img src="14e96cd4177b17eb1ee85d84d09efcc0fa3e1b69.jpg" alt="">
+                <div class="episode">Episode 250</div>
+                <div class="title">Boruto Naruto Next Generations</div>
+            </div>
+            <div class="card">
+                <img src="894ba9f656cb8d734f17921555e3af4d5fbfd914.jpg" alt="">
+                <div class="episode">Episode 07</div>
+                <div class="title">Spy X Family</div>
+            </div>
+            <div class="card">
+                <img src="f04543fa554deceb9b7c888745b5f43729a208d3.png" alt="">
+                <div class="episode">Episode 28</div>
+                <div class="title">Shingeki no kyoujin</div>
+            </div>
+            <div class="card">
+                <img src="e5abb83deb0371790de015fd2dc503be277bd97b.jpg" alt="">
+                <div class="episode">Episode 28</div>
+                <div class="title">Captain Tsubasa</div>
+            </div>
+            <div class="card">
+                <img src="2fb67ff55e3abe50a16b45c46b38b61de4c3c1b2.jpg" alt="">
+                <div class="episode">Episode 28</div>
+                <div class="title">Aoashi</div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
